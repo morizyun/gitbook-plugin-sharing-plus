@@ -1,8 +1,8 @@
 {
-  "name": "gitbook-plugin-sharing",
+  "name": "gitbook-plugin-sharing-plus",
   "description": "Sharing buttons in GitBooks website",
   "main": "index.js",
-  "version": "1.0.2",
+  "version": "0.0.1",
   "dependencies": {
     "lodash": "^3.10.1"
   },
@@ -34,6 +34,11 @@
         "type": "boolean",
         "default": false,
         "title": "Google"
+      },
+      "hatenaBookmark": {
+        "type": "boolean",
+        "default": false,
+        "description": "はてなブックマーク"
       },
       "instapaper": {
         "type": "boolean",
