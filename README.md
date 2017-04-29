@@ -25,6 +25,7 @@ Default configuration is:
             "douban": false,
             "facebook": true,
             "google": false,
+            "hatenaBookmark": false,
             "instapaper": false,
             "line": false,
             "linkedin": true,
