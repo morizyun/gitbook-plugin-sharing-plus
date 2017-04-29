@@ -17,6 +17,7 @@ require(['gitbook', 'jquery'], function(gitbook, $) {
         douban: site('豆瓣', 'share', 'http://shuo.douban.com/!service/share?href=' + url + '&name=' + title),
         facebook: site('Facebook', 'facebook', 'http://www.facebook.com/sharer/sharer.php?s=100&p[url]=' + url),
         google: site('Google+', 'google-plus', 'https://plus.google.com/share?url=' + url),
+        hatebu: site('はてなブックマーク', 'hatebu', '')
         instapaper: site('instapaper', 'instapaper', 'http://www.instapaper.com/text?u=' + url),
         line: site('LINE', 'comment', 'http://line.me/R/msg/text/?' + title + ' ' + url),
         linkedin: site('Linkedin', 'linkedin', 'https://www.linkedin.com/shareArticle?mini=true&url=' + url),
